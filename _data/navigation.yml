@@ -1,0 +1,16 @@
+# Site navigation links
+
+- title: Home
+  url: /
+
+- title: Publications
+  url: /Publications
+
+# - title: Research
+#   url: /Research
+
+- title: Resume
+  url: /docs/cv_siva_mustikovela_jul_21.pdf
+
+- title: Contact
+  url: /Contact

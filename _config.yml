@@ -1,0 +1,65 @@
+# Site wide configuration
+
+title:   Siva Karthik Mustikovela
+locale:           en_US
+url: http://sivakm.github.io/
+baseurl: ""
+
+
+# Jekyll configuration
+
+permalink:   /:categories/:title/
+markdown:    kramdown
+highlighter: pygments
+sass:
+  sass_dir: _sass
+  style: compressed
+gems:
+  - jekyll-sitemap
+
+kramdown:
+  auto_ids: true
+  footnote_nr: 1
+  entity_output: as_char
+  toc_levels: 1..6
+  use_coderay: false
+
+
+# Site owner
+owner:
+  name:   
+  avatar: icon1.jpg
+  #bio: "I see to learn. And hence I learn to see better."
+  bio: "PhD student at Visual Learning Lab HCI, Univ. Heidelberg"
+  email: siva.mustikovela@iwr.uni-heidelberg.de
+  #emailid: siva.mustikovela@iwr.uni-heidelberg.de
+  emailid: siva.mustikovela@iwr.uni-heidelberg.de
+  disqus-shortname: Siva
+  twitter: #username
+  facebook: karthik.kovalam
+  google:
+    plus: #username
+    analytics: 
+    verify: 
+    ad-client: 
+    ad-slot: 
+  bing-verify: 
+  github: #username
+  stackoverflow: #http://stackoverflow.com/users/123456/username
+  linkedin: msivak
+  instagram: #username
+  lastfm: #username
+  tumblr: #username
+  pinterest: #username
+  scholar: msivak
+  steam: #username
+  dribbble: #username
+  youtube: #username
+  soundcloud: #username
+  weibo: #username
+  flickr: #username
+  phone: 
+
+include: [".htaccess"]
+keep_files: ['.htaccess']
+exclude: ["lib", "config.rb", "Capfile", "config", "log", "Rakefile", "Rakefile.rb", "tmp", "less", "*.sublime-project", "*.sublime-workspace", "test", "spec", "Gruntfile.js", "package.json", "node_modules", "Gemfile", "Gemfile.lock", "LICENSE", "README.md"]
